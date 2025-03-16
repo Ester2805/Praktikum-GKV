@@ -1,0 +1,15 @@
+/*Kode ini menggunakan OpenGL dan GLUT untuk membuat animasi lengan yang bisa digerakkan menggunakan keyboard. Berikut langkah kerja kode:
+
+glPushMatrix() & glPopMatrix()
+→ Menyimpan dan mengembalikan transformasi sebelumnya agar perubahan hanya berlaku pada bagian tertentu.
+glTranslatef()
+→ Memindahkan posisi objek dalam ruang 3D.
+glRotatef()
+→ Memutar objek sesuai sudut yang ditentukan.
+glScalef()
+→ Mengubah ukuran objek.
+glutWireCube(1.0)
+→ Membentuk bagian lengan menggunakan kubus.
+Keyboard Input (glutKeyboardFunc())
+→ Tombol 's' dan 'S' untuk menggerakkan bahu.
+→ Tombol 'e' dan 'E' untuk menggerakkan siku.*/
